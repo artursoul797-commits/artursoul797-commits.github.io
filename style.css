@@ -1,0 +1,18 @@
+.music-toggle {
+  position: fixed; /* Фиксируем на экране */
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  background: #fff;
+  border: 3px solid #1b1b1b;
+  padding: 8px;
+  border-radius: 50%;
+  z-index: 1000;
+  box-shadow: 4px 4px 0px #1b1b1b;
+}
+
+.music-toggle:active {
+  box-shadow: 0px 0px 0px #1b1b1b;
+  transform: translate(2px, 2px);
+}
